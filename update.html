@@ -1,0 +1,19 @@
+{% extends 'base.html' %}
+
+{% block head %}
+{% endblock %}
+
+{% block body %}
+  <div class="update-page">
+    <div class="content">
+        <h1 class = "display-2" style="text-align: center">Update Workout Record</h1>
+        <br>
+      <div class="form">
+          <form action="/update/{{task.id}}" method="POST">
+              <input type="text" name="content" id="content" aria-label="Large" aria-describedby="inputGroup-sizing-lg" value="{{task.content}}">
+              <input type="submit" value="Update">
+          </form>
+      </div>
+    </div>
+  </div>
+{% endblock %}
