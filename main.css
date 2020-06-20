@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Arvo&family=Fjalla+One&family=Oswald&family=Rubik:wght@500&display=swap');
+html { font-size: calc(.75em + .4vw) }
+input { font-size: inherit }
+
+body {
+    display: flex;
+    max-width: 91%;
+    display: block;
+    margin: auto;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    font-family: 'Oswald', sans-serif;
+}
+
+.myjumbotron {
+    background-color: #c2fefe;
+}
+
+.myjumbotron h1 {
+    color: #010920;
+    text-align: center;
+    padding: 14px 16px;
+}
+
+.table .thead-dark th {
+    color: white;
+    font-weight: 700;
+    background-color: #01a9c3;
+    border-width: 1.5px;
+    border-color: #010920;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.table {
+    max-width: 100%;
+    margin: auto;
+    margin-bottom: 1.2rem;
+    color: #010920;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+table, th, td {
+    border: .4px solid #7ffffe;
+  }
+
+.btn {
+    border-color: #132226;
+    border-style: double;
+    font-size: inherit;
+    width: 100px;
+    margin-bottom: 10px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+
+.navbar {
+    background-color:#c2fefe;
+}
+
+
+.update-page {
+    padding: 14px 16px;
+    color: #c2fefe;
+    height: 880px;
+}
+
+.update-page h1 {
+    color: 	#3b5998;
+}
+
+.update-page form {
+    text-align: center;
+    padding: 14px 16px;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px 20px;
+
+}
+
+h1[class~=main-title] {
+    background:#58b4d1;
+    display: flex;
+    text-align: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-bottom: auto;
+}
